@@ -7,6 +7,7 @@ import pandas as pd
 from transformers import pipeline
 from transformers.pipelines.pt_utils import KeyDataset
 from tqdm.auto import tqdm
+import json
 rutas = ["/home/santiago/LanAn/aguadiana4-3_tweetsResCont.txt", "/home/santiago/LanAn/aguadiana6-4_tweetsResCont.txt", "/home/santiago/LanAn/manolojim4-3_tweetsResCont.txt", 
         "/home/santiago/LanAn/manolojim6-4_tweetsResCont.txt", "/home/santiago/LanAn/manolojim6-5_tweetsResCont.txt", "/home/santiago/LanAn/RicardoMeb6-4_tweetsResCont.txt", "/home/santiago/LanAn/leninperezr4-3_tweetsResCont.txt",
          "/home/santiago/LanAn/leninperezr6-4_tweetsResCont.txt", "/home/santiago/LanAn/leninperezr6-5_tweetsResCont.txt", "/home/santiago/LanAn/AlejandraDMV4-3_tweetsResCont.txt", "/home/santiago/LanAn/AlejandraDMV6-4_tweetsResCont.txt", 
